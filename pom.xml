@@ -15,21 +15,18 @@
     </properties>
 
     <dependencies>
-        <!-- Ядро Deeplearning4j -->
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-core</artifactId>
             <version>1.0.0-M2.1</version>
         </dependency>
 
-        <!-- Бэкенд для вычислений на CPU -->
         <dependency>
             <groupId>org.nd4j</groupId>
             <artifactId>nd4j-native-platform</artifactId>
             <version>1.0.0-M2.1</version>
         </dependency>
 
-        <!-- Библиотека для логирования -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
